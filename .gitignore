@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs and caches
+logs/
+*.log
+.cache/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and embeddings
+data/
+uploads/
+*.pdf
+*.csv
+*.json
+
+# Model files
+*.pt
+*.bin
+*.h5
+
+# IDE configs
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.tar
+docker-compose.override.yml
+
+# Test artifacts
+htmlcov/
+pytest_cache/
